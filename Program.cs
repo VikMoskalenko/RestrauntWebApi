@@ -44,7 +44,7 @@ namespace RestrauntWebApi
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Ingredient}/{action=Index}/{id?}");
             app.MapRazorPages();
 
             app.Run();
